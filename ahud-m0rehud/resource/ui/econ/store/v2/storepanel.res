@@ -106,18 +106,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
-		"tabheight"		"35"
+		"tabxindent"	"80"
+		"tabxdelta"		"10"
+		"tabwidth"		"240"
+		"tabheight"		"24"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"36"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
@@ -129,9 +130,8 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textAlignment"		"center"
-			"font"				"Code24"
+			"textinsetx"		"40"
+			"font"				"Code18"
 			"selectedcolor"		"ahudWhite"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"ahudDarkGrey"
