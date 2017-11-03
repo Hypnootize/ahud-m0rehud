@@ -109,16 +109,16 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"24"
+		"tabheight"		"20"
 		"transition_time" "0"
-		"yoffset" "14"
+		"yoffset"		"15"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"36"
+			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
@@ -131,7 +131,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"Code18"
+			"font"				"Code24"
 			"selectedcolor"		"ahudWhite"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"ahudDarkGrey"

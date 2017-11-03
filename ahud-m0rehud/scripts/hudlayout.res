@@ -1441,7 +1441,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 	}
-	
+
 	"QueueHUDStatus"
 	{
 		"fieldName"				"QueueHUDStatus"
