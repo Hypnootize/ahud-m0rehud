@@ -42,7 +42,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"0"
 				"use_proportional_insets" "1"
-				"font"			"NormalCode12"
+				"font"			"aRegular12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -208,34 +208,26 @@
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
-		if_operation
-		{
-			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
-		}
-	}
-	
-	"MainMenuSideBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainMenuSideBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"170"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+//		if_christmas
+//		{
+//			"image"		"../console/title_team_smissmas_2017_widescreen"
+//		}
+//		if_jungle_inferno_0
+//		{
+//			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
+//		}
+//		if_jungle_inferno_1
+//		{
+//			"image"		"../console/title_pyro_jungle_inferno_2017_widescreen"
+//		}
 	}
 	
 	"TFLogoImage"
@@ -255,13 +247,22 @@
 	
 	"TFCharacterImage"
 	{
-		"ControlName"	"ImagePanel"
+		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"9999"
+
+		if_taller
+		{
+			if_operation
+			{
+				"xpos"		"9999"
+			}
+		}
+
 		"ypos"			"9999"
 		"zpos"			"-99"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"600"
+		"tall"			"600"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
@@ -285,7 +286,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"NormalCode10"
+			"font"			"aRegular10"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -305,7 +306,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -419,7 +420,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"Code16"
+				"font"			"aBold16"
 				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
@@ -511,7 +512,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"NormalCode14"
+			"font"			"aRegular14"
 			"labelText"		"%motdtitle%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -530,7 +531,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"labelText"		"%motddate%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -614,7 +615,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"NormalCode12"
+					"font"			"aRegular12"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"			"0"
@@ -685,7 +686,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -733,7 +734,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -772,7 +773,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"170"
-		"ypos"			"100"
+		"ypos"			"69"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"20"
@@ -833,7 +834,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"NormalCode10"
+			"font"			"aRegular10"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"rs1"
@@ -905,22 +906,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"r290"
+		"xpos"			"200"
 		"ypos"			"64"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"border"		"ahudPanelBorder"
+		"bgcolor_override"	"HudBlack"
 		
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
 			"xpos"			"186"
-			"ypos"			"8"
+			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -930,7 +932,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -949,21 +951,22 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"ahudWhite"
+			"image_armedcolor"	"255 0 0 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"9"
+				"tall"			"9"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}				
 		}		
 	
@@ -971,18 +974,18 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
-			"ypos"			"8"
+			"ypos"			"7"
 			"wide"			"250"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"ahudWhite"
 			"wrap"			"1"
 		}
 		
@@ -1014,10 +1017,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButtonNew"
-		"xpos"			"72"
+		"xpos"			"65"
 		"ypos"			"100"
 		"zpos"			"1"
-		"wide"			"30"
+		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1035,7 +1038,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"30"
+			"wide"			"20"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1191,10 +1194,10 @@
 		"scaleImage"	"0"
 	}
 
-	"ShowPromoCodesButton"
+	"ShowPromoaBoldsButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowPromoCodesButton"
+		"fieldName"		"ShowPromoaBoldsButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"0"
@@ -1205,14 +1208,14 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"#MMenu_ShowPromoCodes"
+		"labelText"		"#MMenu_ShowPromoaBolds"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"showpromocodes"
+		"command"		"showpromoaBolds"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -1239,10 +1242,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"r145"
+		"xpos"			"r155"
 		"ypos"			"cs-0.5"
 		"zpos"			"-1"
-		"wide"			"145"
+		"wide"			"155"
 		"tall"			"232"
 		"visible"		"1"
 
@@ -1253,7 +1256,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"labelText"		"Friends"
 			"textAlignment"	"west"
 			"xpos"			"12"
@@ -1302,12 +1305,12 @@
 			"inset_x"		"10"
 			"inset_y"		"5"
 			"row_gap"		"4"
-			"column_gap"	"25"
+			"column_gap"	"20"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"		"105"
+				"wide"		"110"
 				"tall"		"20"
 			}
 
@@ -1363,11 +1366,27 @@
 	}
 
 	//START OF MENU
+	"MainMenuSideBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuSideBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-98"
+		"wide"			"170"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"HudBlack"
+	}	
+	
 	"ahudLabel"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ahudLabel"
-		"font"			"NormalCode48"
+		"font"			"aRegular48"
 		"labelText"		"ahud"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -1390,8 +1409,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
-		"font"			"NormalCode8"
-		"labelText"		"v2017.1024"
+		"font"			"aRegular8"
+		"labelText"		"v2018.0404"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -1401,7 +1420,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"ahudWhite"
+		"fgcolor_override"	"242 242 242 5"
 	}
 
 	"RankModelPanel"
@@ -1414,7 +1433,7 @@
 		"zpos"			"-51"
 		"wide"			"170"
 		"tall"			"1000"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -1422,7 +1441,83 @@
 
 		"show_progress"	"0"
 	}
-	
+
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"	"WatchStreamButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"0"
+		"image_drawcolor"	"ahudWhite"
+		"image_armedcolor"	"0 191 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"58"
+		"ypos"			"128"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -1432,22 +1527,76 @@
 		"zpos"			"-52"
 		"wide"			"170"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
 	}
+
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"27"
+		"ypos"			"135"
+		"zpos"			"11"
+		"wide"			"130"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"wrap"			"1"
+		"textinsetx"	"10"
+		"textinsety"	"0"
+
+		"font"			"aRegular10"
+		"fgcolor_override"	"LightRed"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"west"
+		"use_proportional_insets"	"1"
+	}
+
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"11"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-100"
+		"wide"			"260"
+		"tall"			"60"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+	}	
 
 	"CallVoteButton"	//IN-GAME BUTTON
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"82"
-		"ypos"			"245"
+		"ypos"			"255"
 		"zpos"			"12"
 		"wide"			"14"
 		"tall"			"14"
@@ -1468,7 +1617,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"			
 			"use_proportional_insets" "1"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1506,7 +1655,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"102"
-		"ypos"			"245"
+		"ypos"			"255"
 		"zpos"			"12"
 		"wide"			"14"
 		"tall"			"14"
@@ -1527,7 +1676,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"			
 			"use_proportional_insets" "1"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"1"
@@ -1566,7 +1715,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"122"
-		"ypos"			"245"
+		"ypos"			"255"
 		"zpos"			"12"
 		"wide"			"14"
 		"tall"			"14"
@@ -1631,7 +1780,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"27"
-		"ypos"			"245"
+		"ypos"			"255"
 		"wide"			"55"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -1641,7 +1790,7 @@
 		"tabPosition"	"0"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"labelText"		"Items"
 		"dulltext"		"0"
@@ -1666,7 +1815,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"			"27"
-		"ypos"			"265"
+		"ypos"			"275"
 		"wide"			"50"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -1676,7 +1825,7 @@
 		"tabPosition"	"0"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"labelText"		"Store"
 		"dulltext"		"0"
@@ -1701,7 +1850,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButtonNew"
 		"xpos"			"27"
-		"ypos"			"285"
+		"ypos"			"295"
 		"zpos"			"11"
 		"wide"			"65"
 		"tall"			"14"
@@ -1711,7 +1860,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Options"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
@@ -1737,7 +1886,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButtonNew"
 		"xpos"			"27"
-		"ypos"			"305"
+		"ypos"			"315"
 		"zpos"			"11"
 		"wide"			"85"
 		"tall"			"14"
@@ -1747,7 +1896,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Adv. Options"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
@@ -1768,12 +1917,12 @@
 		"depressedFgColor_override" "75 125 255 255"
 	}
 		
-	"ToggleMinmode"
+	"ScoreboardButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ToggleMinmode"
+		"fieldName"		"ScoreboardButton"
 		"xpos"			"27"
-		"ypos"			"325"
+		"ypos"			"335"
 		"wide"			"85"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -1784,7 +1933,7 @@
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
 		"labelText"		"Scoreboard"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1808,7 +1957,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
 		"xpos"			"27"
-		"ypos"			"345"
+		"ypos"			"355"
 		"zpos"			"11"
 		"wide"			"65"
 		"tall"			"14"
@@ -1818,7 +1967,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Console"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
@@ -1847,7 +1996,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DemoUIButton"
 		"xpos"			"27"
-		"ypos"			"365"
+		"ypos"			"375"
 		"zpos"			"11"
 		"wide"			"65"
 		"tall"			"14"
@@ -1857,7 +2006,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"DemoUI"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
@@ -1883,7 +2032,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
 		"xpos"			"27"
-		"ypos"			"405"
+		"ypos"			"415"
 		"zpos"			"11"
 		"wide"			"45"
 		"tall"			"14"
@@ -1893,7 +2042,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Quit"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
@@ -1946,7 +2095,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Disconnect"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
@@ -2070,7 +2219,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2117,7 +2266,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2163,7 +2312,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2214,7 +2363,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2272,7 +2421,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2380,7 +2529,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2427,7 +2576,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2473,7 +2622,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2537,7 +2686,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"Code16"
+				"font"			"aBold16"
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"12"
@@ -2579,7 +2728,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"NormalCode12"
+					"font"			"aRegular12"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -2631,7 +2780,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"NormalCode12"
+					"font"			"aRegular12"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -2795,7 +2944,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_GameMenu_ExitReplay"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"

@@ -56,7 +56,7 @@ Scheme
 				"antialias" "0"
 			}
 		}
-		"Code9"
+		"aBold9"
 		{
 			"1"
 			{
@@ -66,7 +66,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code10"
+		"aBold10"
 		{
 			"1"
 			{
@@ -76,7 +76,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code12"
+		"aBold12"
 		{
 			"1"
 			{
@@ -86,7 +86,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code14"
+		"aBold14"
 		{
 			"1"
 			{
@@ -96,7 +96,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code16"
+		"aBold16"
 		{
 			"1"
 			{
@@ -106,7 +106,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code18"
+		"aBold18"
 		{
 			"1"
 			{
@@ -116,7 +116,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code20"
+		"aBold20"
 		{
 			"1"
 			{
@@ -126,7 +126,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code22"
+		"aBold22"
 		{
 			"1"
 			{
@@ -136,7 +136,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code24"
+		"aBold24"
 		{
 			"1"
 			{
@@ -146,7 +146,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code26"
+		"aBold26"
 		{
 			"1"
 			{
@@ -156,7 +156,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code28"
+		"aBold28"
 		{
 			"1"
 			{
@@ -166,7 +166,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code30"
+		"aBold30"
 		{
 			"1"
 			{
@@ -176,7 +176,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code32"
+		"aBold32"
 		{
 			"1"
 			{
@@ -186,7 +186,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code34"
+		"aBold34"
 		{
 			"1"
 			{
@@ -196,7 +196,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code48"
+		"aBold48"
 		{
 			"1"
 			{
@@ -206,7 +206,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code50"
+		"aBold50"
 		{
 			"1"
 			{
@@ -216,7 +216,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code52"
+		"aBold52"
 		{
 			"1"
 			{
@@ -226,7 +226,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code55"
+		"aBold55"
 		{
 			"1"
 			{
@@ -236,7 +236,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode8"
+		"aRegular8"
 		{
 			"1"
 			{
@@ -246,7 +246,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode9"
+		"aRegular9"
 		{
 			"1"
 			{
@@ -256,7 +256,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode10"
+		"aRegular10"
 		{
 			"1"
 			{
@@ -266,7 +266,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode12"
+		"aRegular11"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"aRegular12"
 		{
 			"1"
 			{
@@ -276,7 +286,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode14"
+		"aRegular14"
 		{
 			"1"
 			{
@@ -286,7 +296,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode16"
+		"aRegular16"
 		{
 			"1"
 			{
@@ -296,7 +306,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode18"
+		"aRegular18"
 		{
 			"1"
 			{
@@ -306,7 +316,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode20"
+		"aRegular20"
 		{
 			"1"
 			{
@@ -316,7 +326,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode20Outline"
+		"aRegular20Outline"
 		{
 			"1"
 			{
@@ -327,7 +337,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"NormalCode22"
+		"aRegular22"
 		{
 			"1"
 			{
@@ -337,7 +347,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode22Outline"
+		"aRegular22Outline"
 		{
 			"1"
 			{
@@ -348,7 +358,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"NormalCode24"
+		"aRegular24"
 		{
 			"1"
 			{
@@ -358,7 +368,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode24Outline"
+		"aRegular24Outline"
 		{
 			"1"
 			{
@@ -369,7 +379,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"NormalCode26"
+		"aRegular26"
 		{
 			"1"
 			{
@@ -379,7 +389,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode28"
+		"aRegular28"
 		{
 			"1"
 			{
@@ -389,7 +399,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode30"
+		"aRegular30"
 		{
 			"1"
 			{
@@ -399,7 +409,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode32"
+		"aRegular32"
 		{
 			"1"
 			{
@@ -409,7 +419,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode34"
+		"aRegular34"
 		{
 			"1"
 			{
@@ -419,7 +429,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode36"
+		"aRegular36"
 		{
 			"1"
 			{
@@ -429,7 +439,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode38"
+		"aRegular38"
 		{
 			"1"
 			{
@@ -439,7 +449,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode40"
+		"aRegular40"
 		{
 			"1"
 			{
@@ -449,7 +459,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode42"
+		"aRegular42"
 		{
 			"1"
 			{
@@ -459,7 +469,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode44"
+		"aRegular44"
 		{
 			"1"
 			{
@@ -469,7 +479,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode46"
+		"aRegular46"
 		{
 			"1"
 			{
@@ -479,7 +489,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode48"
+		"aRegular48"
 		{
 			"1"
 			{
@@ -489,7 +499,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode50"
+		"aRegular50"
 		{
 			"1"
 			{
@@ -499,7 +509,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode52"
+		"aRegular52"
 		{
 			"1"
 			{
@@ -509,7 +519,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode55"
+		"aRegular55"
 		{
 			"1"
 			{
@@ -517,6 +527,515 @@ Scheme
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		// SHADOWS
+		"aBoldShadow9"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow12"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow14"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow20"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow22"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow24"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow26"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow28"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow30"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow32"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow34"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow48"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow50"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow52"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"52"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow55"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"55"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+
+		"aRegularShadow8"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow9"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow11"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow12"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow14"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow20"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow22"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow24"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow24Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow26"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow28"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow30"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow32"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow34"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow36"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow38"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"38"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow40"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"40"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow42"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow44"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"44"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow46"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"46"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow48"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow50"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow52"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"52"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow55"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"55"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}		
+		"aTargetIDData"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"DefaultOutline"
@@ -2296,6 +2815,17 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

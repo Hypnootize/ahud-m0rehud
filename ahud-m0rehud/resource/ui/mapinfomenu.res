@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Code18"
+		"font"			"aBold18"
 		"fgcolor"		"ahudWhite"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
 	}	
 	
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"
@@ -125,10 +125,10 @@
 		"font"			"Blank"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"ahudWhite"
-		"defaultFgColor_override" "ahudWhite"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 
@@ -151,13 +151,13 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	
@@ -180,13 +180,13 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"ahudWhite"
-		"defaultFgColor_override" "ahudWhite"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	
@@ -208,13 +208,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"ahudWhite"
-		"defaultFgColor_override" "ahudWhite"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	
@@ -236,13 +236,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	

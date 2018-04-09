@@ -108,6 +108,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
+			"paintbackground"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -128,7 +129,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
+				"image"			"replay/thumbnails/buttons/chat"
 			}
 		}
 
@@ -301,6 +302,35 @@
 				"bgcolor_override"	"ahudDarkGrey"
 			}
 
+			"QueueLogoButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"QueueLogoButton"
+				"xpos"			"0"
+				"ypos"			"1"
+				"zpos"			"10"
+				"wide"			"o1"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"queue_logo_clicked"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+				"button_activation_type"	"1"
+			
+				"paintbackground"	"0"
+				"paintborder"		"0"				
+			}
+
 			"CTFLogoPanel"
 			{
 				"ControlName"	"CTFLogoPanel"
@@ -352,6 +382,56 @@
 						"font"	"FontStorePrice" // TF2 Build 9
 					}
 				}
+			}
+
+			"MultiQueuesManageButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"MultiQueuesManageButton"
+				"xpos"			"rs1-6"
+				"ypos"			"12"
+				"zpos"			"10"
+				"wide"			"14"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"Command"		"manage_queues"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+			
+				"paintbackground"	"0"
+			
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+			
+				"image_drawcolor"	"ahudWhite"
+				"image_armedcolor"	"0 191 255 255"
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"glyph_options"
+					"scaleImage"	"1"
+				}				
 			}
 
 			"CloseButton"
@@ -572,7 +652,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"110"
+			"wide"			"100"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -585,7 +665,7 @@
 			"brighttext"	"0"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Disconnect"
+			"labeltext"		"Disconnect"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -600,11 +680,11 @@
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "ahudWhite"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"242 242 242 255"
+			"image_armedcolor"	"242 242 242 255"
 
 			"SubImage"
 			{
@@ -620,7 +700,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "ahudWhite"
 			}
 		}
 
@@ -631,7 +711,7 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"120"
+			"wide"			"80"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -644,7 +724,7 @@
 			"brighttext"	"0"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_ResumeGame"
+			"labeltext"		"Resume"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -659,10 +739,10 @@
 		//	"armedBgColor_override"		"CreditsGreen"
 		//	"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "ahudWhite"
+			"image_drawcolor"	"242 242 242 255"
+			"image_armedcolor"	"242 242 242 255"
 
 			"SubImage"
 			{
@@ -678,7 +758,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"icon_resume"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "ahudWhite"
 			}
 		}
 
@@ -689,7 +769,7 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115"
+			"wide"			"60"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -702,7 +782,7 @@
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
+			"labeltext"		"Play"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -717,10 +797,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "ahudWhite"
+			"image_drawcolor"	"242 242 242 255"
+			"image_armedcolor"	"242 242 242 255"
 
 			"SubImage"
 			{
@@ -736,7 +816,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "ahudWhite"
 			}
 		}
 	}

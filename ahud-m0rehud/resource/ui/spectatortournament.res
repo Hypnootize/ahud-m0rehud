@@ -50,12 +50,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			  "NormalCode9"
+				"font"			  "aRegular10"
 				"xpos"			  "44"
-				"ypos"			  "4"
+				"ypos"			  "0"
 				"zpos"			  "5"
 				"wide"			  "80"
-				"tall"			  "10"
+				"tall"			  "17"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		  "1"
@@ -64,6 +64,28 @@
 				"fgcolor"		  "ahudWhite"
 			}
 			
+			"playernameshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"playernameshadow"
+				"font"			  "aRegularShadow10"
+				"xpos"			  "0"
+				"ypos"			  "-1"
+				"zpos"			  "5"
+				"wide"			  "80"
+				"tall"			  "17"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		  "1"
+				"labelText"		"%playername%"
+				"textAlignment"	"west"
+				"fgcolor"		  "ShadowBlack"
+
+				"pin_to_sibling"	"playername"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -171,12 +193,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"NormalCode10"
+				"font"			"aRegular10"
 				"xpos"			"16"
 				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"24"
-				"tall"			"16"
+				"tall"			"17"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -189,18 +211,22 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeshadow"
-				"font"			"NormalCode10"
-				"xpos"			"17"
-				"ypos"			"1"
+				"font"			"aRegularShadow10"
+				"xpos"			"0"
+				"ypos"			"-1"
 				"zpos"			"6"
 				"wide"			"24"
-				"tall"			"16"
+				"tall"			"17"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"ShadowBlack"
+
+				"pin_to_sibling"	"respawntime"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}			
 			
 			"respawntimecover"
@@ -225,20 +251,44 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"NormalCode9"
+				"font"			"aRegular9"
 				"xpos"			"117"
-				"ypos"			"4"
+				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"25"
-				"tall"			"10"
+				"tall"			"17"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor_override"		"HP Buff"
+				"fgcolor_override"	"HP Buff"
+
 			}
-		
+			
+			"chargeamountshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountshadow"
+				"font"			"aRegularShadow9"
+				"xpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"17"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor_override"	"ShadowBlack"
+				
+				"pin_to_sibling"	"chargeamount"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
+			}
+			
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -295,7 +345,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NormalCode16"
+		"font"			"aRegular16"
 		"fgcolor"		"ahudWhite"
 		
 		if_mvm
@@ -317,7 +367,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -392,9 +442,9 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"HudBlack"
+		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -417,40 +467,23 @@
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-
-		"ItemBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"200"
-			"tall"			"1000"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"Hudblack"
-		}
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"default"
-			"fgcolor"		"255 255 255 255"
-			"xpos"			"5"
-			"ypos"			"5"
+			"font"			"aRegular9"
+			"xpos"			"10"
+			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"180"
-			"tall"			"10"
+			"wide"			"270"
+			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"north-west"
+			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

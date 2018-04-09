@@ -49,7 +49,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code18"
+		"font"			"aBold18"
 		"fgcolor"		"ahudWhite"
 	}	
 
@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"1"
@@ -118,13 +118,13 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	

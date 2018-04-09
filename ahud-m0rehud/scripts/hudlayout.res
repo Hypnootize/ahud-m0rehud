@@ -482,7 +482,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"NormalCode10"
+		"TextFont"		"aRegular10"
 		
 		"TeamBlue"		"ahudBlue"
 		"TeamRed"		"ahudRed"
@@ -570,8 +570,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"232"
-		"ypos"			"r88"
+		"xpos"			"c205"
+		"ypos"			"c91"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1222,10 +1222,10 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"r200"
-		"ypos"					"300"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair

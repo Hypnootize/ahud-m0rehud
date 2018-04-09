@@ -41,7 +41,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A CLASS"
 		"textAlignment"	"center"
-		"font"			"Code18"
+		"font"			"aBold18"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"ahudWhite"
@@ -84,7 +84,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -120,7 +120,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -156,7 +156,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -212,7 +212,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -248,7 +248,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -284,8 +284,9 @@
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
+		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"
@@ -339,7 +340,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -375,7 +376,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -411,7 +412,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		"scaleImage"		"1"
 		
 		"FgColor"					"255 255 255 128"
@@ -449,7 +450,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"NormalCode12"
+		"font"				"aRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -485,7 +486,7 @@
 		"labelText"		"&E   Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -516,7 +517,7 @@
 		"labelText"		"&C  Cancel"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -874,7 +875,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}	
 	
@@ -894,7 +895,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}		
 	
@@ -914,7 +915,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}			
 	
@@ -934,7 +935,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}				
 	
@@ -954,7 +955,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}					
 	
@@ -974,7 +975,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}						
 	
@@ -994,7 +995,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}							
 	
@@ -1014,7 +1015,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}						
 	
@@ -1034,7 +1035,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 	}								
 	

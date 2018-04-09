@@ -221,7 +221,7 @@
 		"proportionaltoaparent"	"1"
 		"border"			"NoBorder"
 	}
-	
+
 	"RankUpLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -242,7 +242,7 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ahudWhite"
 	}
 
 	"RankUpShadowLabel"
@@ -265,9 +265,8 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 	}
-	
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -285,7 +284,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"NormalCode14"
+		"delta_item_font"		"aRegular14"
 
 		if_match
 		{
@@ -296,14 +295,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"NormalCode14"
+			"delta_item_font"		"aRegular14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"NormalCode14"
+			"font"			"aRegular14"
 			"fgcolor"		"ahudWhite"
 			"xpos"			"27"
 			"ypos"			"0"
