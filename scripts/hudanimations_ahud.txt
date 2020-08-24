@@ -113,3 +113,13 @@ event HudLowAmmoPulseStop
 	Animate AmmoNoClipShadow		Fgcolor		"0 0 0 255"		Linear 0.0 0.1
 	Animate AmmoInClipShadow		Fgcolor		"0 0 0 255"		Linear 0.0 0.1
 }
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
