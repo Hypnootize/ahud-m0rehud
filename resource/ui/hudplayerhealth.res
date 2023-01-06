@@ -493,7 +493,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../Effects/powerup_warlock_hud"
+		"image"			"../Effects/powerup_Reflect_hud"
 		"fgcolor"		"TanDark"
 	}
 	
